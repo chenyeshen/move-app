@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yeshen.admin.mapper.CarouselMapper">
+  <resultMap id="BaseResultMap" type="com.yeshen.admin.entity.Carousel">
+    <!--@mbg.generated-->
+    <!--@Table carousel-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="move_id" jdbcType="VARCHAR" property="moveId" />
+    <result column="image_url" jdbcType="VARCHAR" property="imageUrl" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="is_show" jdbcType="INTEGER" property="isShow" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, move_id, image_url, sort, is_show
+  </sql>
+</mapper>
